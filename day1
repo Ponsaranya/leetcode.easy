@@ -1,6 +1,5 @@
-#anagram python
 class Solution:
-    def groupAnagrams(self, strs: List3[str]) -> List[List[str]]:
+    def groupAnagrams(self, strs: List[str]) -> List[List[str]]:
         mp = {}
         ans = []
 
