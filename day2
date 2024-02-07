@@ -1,0 +1,22 @@
+#python sum of an array
+
+import math
+import os
+import random
+import re
+import sys
+
+
+n = int(input())
+
+# Take input from the user for the numbers separated by space
+numbers = input().split()
+
+# Convert the input numbers from strings to integers
+numbers = [int(num) for num in numbers]
+
+# Calculate the sum of the numbers
+array_sum = sum(numbers)
+
+# Print the sum
+print(array_sum)
